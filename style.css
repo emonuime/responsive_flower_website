@@ -59,7 +59,7 @@
 .bannerContainer{
 
     width: 100%;
-    height: 100vh;
+    height: 60vh;
 }
 
 
@@ -82,9 +82,58 @@
 }
 
 
+/*Our Plant Section */
 
+.ourPlantContainer{
+    width: 100%;
+    height: 80vh;
+    
+}
+ 
 
+.ourPlantSection{
+    width: 1260px;
+    height: 80vh;
+    margin: auto;
+    padding-top: 50px;
+}
 
+.heroHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroHeading p{
+    margin-top: 10px;
+}
+
+.cardSection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+.cards button,
+.cards img{
+    width: 100%;
+}
+
+.cards button{
+    background: #E95A08;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.cards button:hover{
+    background: #ffe9dc;
+    color: #E95A08;
+}
 
 
 
@@ -136,7 +185,7 @@
 .bannerContainer{
 
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .bannerSection{
@@ -164,6 +213,34 @@
 .headingSection{
     padding: 0px 20px 0px 20px;
     margin-bottom: 20px;
+}
+
+
+
+
+
+/*Our Plant Section*/
+
+
+.ourPlantSection{
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+.cardSection{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+.heroHeading p{
+    width: auto;
+}
+
+.heroHeading h1{
+    font-size: 40px;
 }
 
 
