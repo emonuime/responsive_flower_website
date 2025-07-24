@@ -141,6 +141,62 @@
 
 
 
+/* Shop Section */
+
+.flowerShopContainer{
+    height: 100vh;
+    width: 100%;
+    margin-top: 600px;
+}
+
+
+.shopSection{
+    height: 80vh;
+    width: 1260px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.imgBoxShop,
+.textBoxShop{
+    width: 50%;
+}
+
+.textBoxShop h1{
+    margin-bottom: 20px;
+}
+
+.textBoxShop li:nth-child(2),
+.textBoxShop li:nth-child(3){
+    margin-top: 20px;
+}
+
+.textBoxShop p{
+    color: gray;
+    font-size: 17px;
+}
+
+.textBoxShop ul{
+    margin-left: 20px;
+}
+
+.trustBadge{
+    position: absolute;
+    left: 35%;
+    margin-top: -150px;
+    z-index: 10;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -158,9 +214,9 @@
 @media (width <= 40rem) { 
     .navbarContainer{
     height: 15vh;
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 20px 20px 20px;
  }
 
  .menuLinks li:nth-child(1),
@@ -229,7 +285,7 @@
 
 .cardSection{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 50px;
     padding-bottom: 80px;
@@ -240,7 +296,65 @@
 }
 
 .heroHeading h1{
-    font-size: 40px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.trustBadge{
+   display: none;
+}
+
+.flowerShopContainer{
+    height: 100vh;
+    width: 100%;
+    margin-top: 600px;
+}
+
+.shopSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+}
+
+
+.flowerShopContainer{
+    height: 100vh;
+    width: auto;
+    margin-top: 800px;
+    padding: 50px 20px 50px 20px;
+}
+
+
+.imgBoxShop,
+.textBoxShop{
+    width: 100%;
+}
+
+.textBoxShop{
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+.textBoxShop h1{
+    font-size: 30px;
+}
+
+.hideOnMobile{
+    display: none;
 }
 
 
