@@ -246,7 +246,57 @@
 }
 .childThree{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/deal-zabo.png); 
+    
 }
+
+
+
+
+/* Join and Subscirbe */
+
+.joinContainer{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/news-letter-bg.png); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.joinSection{
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 20px;
+}
+
+.searchBox input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 400px;
+    padding-left: 20px;
+}
+.subButton{
+    background: #E95A08;
+    color: white;
+}
+
+.searchBox{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
 
 
 
@@ -438,5 +488,50 @@
 }
 
 
+
+
+
+
+
+.joinContainer{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/news-letter-bg.png); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.joinSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 20px;
+}
+
+
+.title p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.subButton{
+    padding-right: 20px;
+}
+
+.searchBox{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 /*END*/
